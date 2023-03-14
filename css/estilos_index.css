@@ -1,0 +1,201 @@
+/***********************************************
+
+ Autor: Alvarez Rodero Sofia
+        Fernandez Bruno
+        Miguel Emanuel
+        
+***********************************************/
+
+/* ESTILOS GENERALES*/
+#contenedor-central {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    margin-bottom: 5px;
+}
+/*ESTILOS MENU*/
+
+nav {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 10px;
+}
+
+#menu-principal {
+    margin: 15px 2rem 2rem 2rem;
+    display: flex;
+    background-color: rgb(32, 35, 70);
+    border: 1.5mm solid rgb(0, 130, 255);
+    border-radius: 5px;
+}
+
+.botones-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.boton-menu-esconder {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: auto;
+    height: auto;
+    color:white;
+    background-color: rgb(245, 130, 76);
+    cursor: pointer;
+}
+
+.boton-menu-perfil {
+    display: flex;
+    width: auto;
+    height: auto;
+    background-color: rgb(245, 130, 76);
+    padding: 7px;
+    cursor: pointer;
+}
+
+#span_perfil {
+    display: flex;
+    color: white;
+    text-decoration: none;
+}
+
+#menu-principal>h1 {
+   align-self: center;
+   font-size: 36px;
+   margin-top: 6px;
+   margin-bottom: 6px;
+   color: rgb(245, 130, 76);
+}
+
+.Div-Titulo{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 1em;
+    font-size: 22px;
+    padding: 20px;
+}
+
+/*ESTILOS DE SECCION DE GRAFICOS */
+
+#dashboard {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 83%;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    margin: 5px; 
+    background-color: rgb(221, 217, 217);
+}
+
+.grafico-izq {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    justify-content: center;
+}
+
+.grafico-der {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    justify-content:center;
+}
+
+#img-fase-grupos {
+    width: 1515px;
+}
+
+#img-mejores-jugadores {
+    width: 1467px;
+}
+
+#img-entradas-vendidas { 
+    width: 2495px;
+}
+
+#img-costos {
+    width: 1172px;
+}
+
+#img-premio-campeon {
+    width: 1540px;
+}
+
+#img-campeones {
+    width: 2035px;
+}
+
+#img-selecciones-mas-caras {
+    width: 1885px;
+}
+
+
+/*ESTILOS DE ASIDE */
+#aside-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 155px;
+    height: 50%;
+    background-color: rgb(32, 35, 70);
+    margin: 5px;
+    border: 1.5mm solid rgb(0, 130, 255);
+    border-radius: 5px;
+}
+
+.botton-aside {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin: 12px;
+    width: 113px;
+    height: 120px;
+    cursor: pointer;
+}
+
+/*Estilos footer*/
+footer {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    width: 100%;
+    margin: 12px 2rem 2rem 2rem;
+}
+
+#img-sponsors {
+    height: 100%;
+    width: 60%;
+}
+
+@media (max-width:1100px){
+    .botton-aside{
+        margin: 0px;
+        width: 100px;
+        height: 80px;
+    }
+    #aside-principal{
+        width: 120px;
+    }
+}

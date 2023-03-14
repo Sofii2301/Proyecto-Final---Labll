@@ -1,0 +1,109 @@
+#contenedor_perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+header {
+    align-self: flex-start;
+}
+
+h2 {
+    color: rgb(245, 130, 76);
+    margin: 8px;
+}
+
+#span_perfil {
+    border: 3px solid rgb(0, 130, 255);
+    background-color: rgb(245, 130, 76);
+    border-radius: 5%;
+    margin: 3px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#div_datos {
+    display: flex;
+    flex-direction: column;
+    border: 6px solid rgb(0, 130, 255);
+    background-color:rgb(32, 35, 70);
+    border-radius: 1%;
+    margin: 6px;
+    margin-top: -22px;
+    padding: 10px;
+}
+
+#div_facturacion {
+    display: flex;
+    flex-direction: column;
+    border: 6px solid rgb(0, 130, 255);
+    background-color: rgb(32, 35, 70);
+    border-radius: 1%;
+    margin: 6px;
+    padding: 10px;
+}
+
+#div_tarjeta {
+    display: flex;
+    flex-direction: column;
+    border: 6px solid rgb(0, 130, 255);
+    background-color:rgb(32, 35, 70);
+    border-radius: 1%;
+    margin: 6px;
+    padding: 10px;
+}
+
+#div_guardarVolver {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#div_recibos {
+    display: flex;
+    flex-direction: column;
+    border: 6px solid rgb(0, 130, 255);
+    background-color:rgb(32, 35, 70);
+    border-radius: 1%;
+    margin: 6px;
+    padding: 10px;
+}
+
+#recibos {
+    display: flex;
+    align-items: center;
+}
+
+#ultimos-mov {
+    display: flex;
+    align-items: center;
+}
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    padding: 20px;
+    padding-top: 0px;
+    justify-content: center;
+}
+
+main {
+    width: auto;
+}
+
+.boton-menu-perfil {
+    width: 130px;
+    height: 50px;
+    border-radius: 5px;
+    color:white;
+    background-color: rgb(245, 130, 76);
+    margin: 5px;
+    border-style: hidden;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin: 8px;
+}

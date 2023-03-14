@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(13, 16, 39);
+}
+
+button {
+    background-color:rgb(57, 99, 173);
+    color: white;
+    border: 4px solid black;
+    border-radius: 5%;
+}
+
+footer {
+    background-color:rgb(32, 35, 70);
+    border: 1.5mm dashed rgb(0, 130, 255);
+    margin: 4px;
+    padding: 6px;
+}
+
+.boton-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    width: 125px;
+    height: 40px;
+    margin: 5px;
+    cursor: pointer;
+}

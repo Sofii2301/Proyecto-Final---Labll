@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html >
+    <head>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"/>
+        <link rel="stylesheet" href="css/estilos_generales.css">
+        <link rel="stylesheet" href="css/estilos_perfil.css">
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+        <div id="contenedor_perfil">
+            <header>
+                <h1> 
+                    <span id="span_perfil" class="material-symbols-outlined">
+                        account_circle
+                    </span>
+                    Perfil 
+                </h1>
+            </header>
+
+            <main>
+                <div id="div_datos">
+                    <h2> 
+                        Datos Personales
+                    </h2>
+                    <legend> Nombre/s </legend>
+                    <input type="text">
+
+                    <Legend> Apellido </Legend>
+                    <input type="text">
+                    
+                    <legend>
+                        <span class="material-symbols-outlined">
+                            calendar_month
+                        </span>
+                        Fecha de nacimiento 
+                    </legend>
+                    <input type="date">
+                    
+                    <legend> 
+                        <span class="material-symbols-outlined">
+                            mail
+                        </span>
+                        Email 
+                    </legend>
+                    <input type="email">
+                    <legend> 
+                        <span class="material-symbols-outlined">
+                            smartphone
+                        </span>
+                        Teléfono 
+                    </legend>
+                    <input type="tel">
+                </div>
+
+                <div id="div_facturacion">
+                    <h2> 
+                        Datos de Facturación
+                    </h2>
+                    <legend> 
+                        <span class="material-symbols-outlined">
+                            location_on
+                        </span>
+                        Dirección 1 
+                    </legend>
+                    <input type="text">
+                    <legend>
+                        <span class="material-symbols-outlined">
+                            location_on
+                        </span>
+                        Dirección 2 
+                    </legend>
+                    <input type="text">
+                    <legend> Altura </legend>
+                    <input type="number">
+                    <legend> 
+                        <span class="material-symbols-outlined">
+                            home_work
+                        </span>
+                        Casa/Edificio 
+                    </legend>
+                    <label for="casa"> Casa </label>
+                    <input type="radio" name="opcion_direccion" id="casa">
+                    <label for="edificio"> Edificio </label>
+                    <input type="radio" name="opcion_direccion" id="edificio">
+                    <legend> Piso/Altura </legend>
+                    <input type="number">
+                </div>
+
+                <div id="div_tarjeta">
+                    <h2> Datos de tarjeta</h2>
+                    <legend> 
+                        <span class="material-symbols-outlined">
+                            credit_card
+                        </span>
+                        Número de tarjeta 
+                    </legend>
+                    <input type="number">
+                    <legend> Código de seguridad </legend>
+                    <input type="number">
+                    <legend> Fecha de vencimiento </legend>
+                    <input type="month">
+                </div>
+                
+                <div id="div_guardarVolver"> 
+                    <a title="Inicio" href="index.html">  
+                        <button class="boton-menu-perfil" > 
+                            <strong> Guardar y Volver </strong>
+                        </button> 
+                    </a>
+                </div>
+
+                <div id="div_recibos">
+                    <legend id="recibos"> 
+                        <span class="material-symbols-outlined">
+                            receipt
+                        </span>
+                        Recibos 
+                    </legend>
+                
+                    <legend id="ultimos-mov"> 
+                        <span class="material-symbols-outlined">
+                        history
+                        </span>
+                        Últimos movimientos
+                    </legend>
+                </div>
+            </main>
+
+            <footer>
+                <button class="boton-footer"> 
+                    <span class="material-symbols-outlined">
+                    contact_support
+                    </span>
+                    Soporte
+                </button>
+
+                <button class="boton-footer"> 
+                    <span class="material-symbols-outlined">
+                        info
+                    </span>
+                    Contáctanos 
+                </button>
+            </footer>
+
+        </div>
+    </body>
+</html>
