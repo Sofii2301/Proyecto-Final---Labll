@@ -43,7 +43,7 @@ nav {
     justify-content: space-between;
 }
 
-.boton-menu-esconder {
+#boton-menu-esconder {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
@@ -54,7 +54,7 @@ nav {
     cursor: pointer;
 }
 
-.boton-menu-perfil {
+#boton-menu-perfil {
     display: flex;
     width: auto;
     height: auto;
@@ -192,10 +192,15 @@ footer {
 @media (max-width:1100px){
     .botton-aside{
         margin: 0px;
-        width: 100px;
+        width: 20%;
         height: 80px;
     }
     #aside-principal{
-        width: 120px;
+        width: 83%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .boton-footer{
+        width: 20%;
     }
 }
