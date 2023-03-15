@@ -44,6 +44,13 @@ h2 {
     padding: 10px;
 }
 
+.opciones_vivienda {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 144px;
+}
+
 #div_tarjeta {
     display: flex;
     flex-direction: column;
