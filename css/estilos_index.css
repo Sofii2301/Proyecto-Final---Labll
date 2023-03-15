@@ -23,19 +23,40 @@ img {
 }
 /*ESTILOS MENU*/
 
-nav {
-    display: flex;
-    flex-direction: column;
-    margin: 5px;
-    padding: 10px;
-}
-
 #menu-principal {
     margin: 15px 2rem 2rem 2rem;
     display: flex;
+    flex-direction: column;
     background-color: rgb(32, 35, 70);
     border: 1.5mm solid rgb(0, 130, 255);
     border-radius: 5px;
+    padding: 10px;
+}
+
+#titulo-menu{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo {
+    clip-path: inset(0px 0px 36px 0px);
+    width: 100px;
+}
+
+@font-face {
+    font-family: "Fuente Qatar";
+    src: url("fuente-qatar.ttf");
+}  
+
+#titulo-menu>h1 {
+   font-size: 60px;
+   color: rgb(151, 34, 34);
+   padding-top: 0px;
+   padding-bottom: 25px;
+   font-family:"Fuente Qatar";
 }
 
 .botones-menu {
@@ -50,7 +71,7 @@ nav {
     width: auto;
     height: auto;
     color:white;
-    background-color: rgb(245, 130, 76);
+    background-color: rgb(151, 34, 34);
     cursor: pointer;
 }
 
@@ -58,7 +79,7 @@ nav {
     display: flex;
     width: auto;
     height: auto;
-    background-color: rgb(245, 130, 76);
+    background-color:rgb(151, 34, 34);
     padding: 7px;
     cursor: pointer;
 }
@@ -69,85 +90,57 @@ nav {
     text-decoration: none;
 }
 
-#menu-principal>h1 {
-   align-self: center;
-   font-size: 36px;
-   margin-top: 6px;
-   margin-bottom: 6px;
-   color: rgb(245, 130, 76);
+.Div-Titulo{
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
 }
 
-.Div-Titulo{
+/*ESTILOS DE SECCION DE GRAFICOS */
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    width: 83%;
+}
+
+.article-grafico {
+    display: flex;
+    flex-direction: row;
+    margin: 5px; 
+    background-color: rgb(221, 217, 217);
+    padding: 0;
+}
+
+.Div-Titulo {
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
     width: 1em;
     font-size: 22px;
-    padding: 20px;
+    padding: 30px;
+    background-color: rgb(151, 34, 34);
+    color: white;
 }
 
-/*ESTILOS DE SECCION DE GRAFICOS */
-
-#dashboard {
+.Div-articulos {
+    width: 100%;
     display: flex;
-    flex-wrap: wrap;
-}
-
-main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 83%;
-}
-
-article {
-    display: flex;
+    align-items: center;
     flex-direction: row;
-    margin: 5px; 
-    background-color: rgb(221, 217, 217);
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px;
 }
 
-.grafico-izq {
-    display: flex;
-    flex-direction: column;
-    margin: 5px;
-    justify-content: center;
-}
-
-.grafico-der {
-    display: flex;
-    flex-direction: column;
-    margin: 5px;
-    justify-content:center;
-}
-
-#img-fase-grupos {
-    width: 1515px;
-}
-
-#img-mejores-jugadores {
-    width: 1467px;
-}
-
-#img-entradas-vendidas { 
-    width: 2495px;
-}
-
-#img-costos {
-    width: 1172px;
-}
-
-#img-premio-campeon {
-    width: 1540px;
-}
-
-#img-campeones {
-    width: 2035px;
-}
-
-#img-selecciones-mas-caras {
-    width: 1885px;
+.articulo {
+    align-items: center;
+    background-color: rgb(241, 195, 195);
+    padding: 20px;
+    margin: 10px;
 }
 
 

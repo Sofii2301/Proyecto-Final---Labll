@@ -12,7 +12,11 @@
         <div id="contenedor">
             <header>
                 <nav id="menu-principal">
-                    <h1> Estadísticas del Mundial </h1>
+                    <div id="titulo-menu">
+                       <img alt="logo qatar" src="img/logo.png" id="logo">
+                        <h1> Estadísticas del Mundial </h1> 
+                    </div>
+                    
                     <div class="botones-menu">
                         <button id="boton-menu-perfil">
                             <a title="Perfil" href="perfil.html" id="span_perfil"> 
@@ -32,87 +36,78 @@
             </header>
             
             <div id="contenedor-central">
-                <main>
+                <main>  
+                    <article class="article-grafico">
+                        <div class="Div-Titulo">
+                            <h2> P A R T I D O S </h2>
+                        </div>
+                        <div class="Div-articulos">
+                            <div class="articulo">
+                                <h3>Fixture</h3>
+                                <img alt="img cuadro final" src="img/Cuadro final.jpg" class="grafico" width="300px" height="300px">
+                            </div>
+                            <div class="articulo">
+                                <h3>Fase de grupos</h3>
+                                <img alt="img fase de grupo" src="img/Fase de grupos.png" class="grafico" width="300px" height="300px">
+                            </div> 
+                        </div>       
+                    </article>
 
-                    <div id="dashboard">   
-                        <article class="article-grafico">
-                            <div class="Div-Titulo">
-                                <h3> P A R T I D O S </h3>
-                            </div>
-                        
-                            <div class="grafico-izq">
-                                <img alt="img cuadro final" src="img/Cuadro final.jpg">
-                            </div>
-
-                            <div class="grafico-der">
-                                <img alt="img fase de grupo" src="img/Fase de grupos.png" id="img-fase-grupos">
-                            </div>
-                        </article>
-
-                        <article class="article-grafico">
-                            <div class="Div-Titulo">
-                                <h3> I N F O R M A C I Ó N </h3>
-                            </div>
-                        
-                            <div class="grafico-izq">
+                    <article class="article-grafico">
+                        <div class="Div-Titulo">
+                            <h2> I N F O R M A C I Ó N </h2>
+                        </div>
+                        <div class="Div-articulos">
+                            <div class="articulo">
+                                <h3>Premios</h3>
                                 <img alt="img premios" src="img/Premios.jpg">
                             </div>
-
-                            <div class="grafico-der">
-                                <img alt="img goles arg-den" src="img/Mejores jugadores mundial.jpeg" id="img-mejores-jugadores" >
-                            </div>
-                        </article>
-                        <article class="article-grafico">
-                            <div class="Div-Titulo">
-                                <h3> I N F O R M A C I Ó N </h3>
-                            </div>
-                            <div class="grafico-izq">
+                            <div class="articulo">
+                                <h3>Mejores jugadores</h3>
+                                <img alt="img mejores jugadores" src="img/Mejores jugadores mundial.jpeg">
+                            </div> 
+                            <div class="articulo">
+                                <h3>Boletos</h3>
                                 <img alt="img boletos" src="img/Boletos.jpg">
-                            </div>
+                            </div> 
+                            <div class="articulo">
+                                <h3>Entradas</h3>
+                                <img alt="img entradas" src="img/Entradas vendidas.png">
+                            </div> 
+                            <div class="articulo">
+                                <h3>Costos</h3>
+                                <img alt="img costos" src="img/Costos.png">
+                            </div> 
+                            <div class="articulo">
+                                <h3>Premio campeon</h3>
+                                <img alt="img premio" src="img/Premio campeon.png">
+                            </div> 
+                        </div>       
+                    </article>
 
-                            <div class="grafico-der">
-                                <img alt="img entradas" src="img/Entradas vendidas.png" id="img-entradas-vendidas">
-                            </div>
-                        </article>
-                        <article class="article-grafico">
-                            <div class="Div-Titulo">
-                                <h3> I N F O R M A C I Ó N </h3>
-                            </div>
-                            <div class="grafico-izq">
-                                <img alt="img costos" src="img/Costos.png" id="img-costos">
-                            </div>
-
-                            <div class="grafico-der">
-                                <img alt="img premio" src="img/Premio campeon.png" id="img-premio-campeon">
-                            </div>
-                        </article>
-
-                        <article class="grafico">
-                            <div class="Div-Titulo">
-                                <h3> H I S T O R I A </h3>
-                            </div>
-                        
-                            <div class="grafico-izq">
+                    <article class="article-grafico">
+                        <div class="Div-Titulo">
+                            <h2> H I S T O R I A </h2>
+                        </div>
+                        <div class="Div-articulos">
+                            <div class="articulo">
+                                <h3>Maximos goleadores</h3>
                                 <img alt="img maximos goleadores" src="img/Maximos goleadores de la historia.jpg">
                             </div>
-
-                            <div class="grafico-der">
-                                <img alt="img campeones" src="img/Campeones.jpg" id="img-campeones">
-                            </div>
-                        </article>
-                        <article class="article-grafico">
-                            <div class="Div-Titulo">
-                                <h3> H I S T O R I A </h3>
-                            </div>
-                            <div class="grafico-izq">
+                            <div class="articulo">
+                                <h3>Campeones</h3>
+                                <img alt="img campeones" src="img/Campeones.jpg">
+                            </div> 
+                            <div class="articulo">
+                                <h3>Mejor resultado</h3>
                                 <img alt="img mejor resultado" src="img/Mejor resultado.jpg">
-                            </div>
-                            <div class="grafico-der">
-                                <img alt="img selecciones mas caras" src="img/Selecciones mas caras.png" id="img-selecciones-mas-caras" >
-                            </div>
-                        </article>
-
-                    </div>
+                            </div> 
+                            <div class="articulo">
+                                <h3>Selecciones mas caras</h3>
+                                <img alt="img selecciones mas caras" src="img/Selecciones mas caras.png">
+                            </div>  
+                        </div>       
+                    </article>
                 </main>
                 <aside id="aside-principal">
                     <button class="botton-aside"> 
