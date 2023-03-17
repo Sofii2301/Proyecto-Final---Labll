@@ -10,13 +10,15 @@ header {
 }
 
 h2 {
-    color: rgb(245, 130, 76);
-    margin: 8px;
+    background-color: rgb(151, 34, 34);
+    padding: 5px;
+    margin: 0;
+    margin-bottom: 10px;
 }
 
 #span_perfil {
     border: 3px solid rgb(0, 130, 255);
-    background-color: rgb(245, 130, 76);
+    background-color: rgb(151, 34, 34);
     border-radius: 5%;
     margin: 3px;
     padding: 5px;
@@ -29,9 +31,9 @@ h2 {
     border: 6px solid rgb(0, 130, 255);
     background-color:rgb(32, 35, 70);
     border-radius: 1%;
-    margin: 6px;
+    margin: 20px;
     margin-top: -22px;
-    padding: 10px;
+    padding: 15px;
 }
 
 #div_facturacion {
@@ -40,8 +42,8 @@ h2 {
     border: 6px solid rgb(0, 130, 255);
     background-color: rgb(32, 35, 70);
     border-radius: 1%;
-    margin: 6px;
-    padding: 10px;
+    margin: 20px;
+    padding: 15px;
 }
 
 .opciones_vivienda {
@@ -57,8 +59,8 @@ h2 {
     border: 6px solid rgb(0, 130, 255);
     background-color:rgb(32, 35, 70);
     border-radius: 1%;
-    margin: 6px;
-    padding: 10px;
+    margin: 20px;
+    padding: 15px;
 }
 
 #div_guardarVolver {
@@ -69,22 +71,26 @@ h2 {
 
 #div_recibos {
     display: flex;
-    flex-direction: column;
-    border: 6px solid rgb(0, 130, 255);
+    justify-content: space-around;
+    border: 2px solid rgb(0, 130, 255);
     background-color:rgb(32, 35, 70);
     border-radius: 1%;
     margin: 6px;
-    padding: 10px;
+    margin-top: 100px;
+    padding: 0px;
+    height: 60px;
 }
 
 #recibos {
     display: flex;
     align-items: center;
+    margin: 0px;
 }
 
 #ultimos-mov {
     display: flex;
     align-items: center;
+    margin: 0px;
 }
 
 body {
@@ -95,7 +101,7 @@ body {
 }
 
 main {
-    width: auto;
+    width: 70%;
 }
 
 .boton-menu-perfil {
@@ -103,7 +109,7 @@ main {
     height: 50px;
     border-radius: 5px;
     color:white;
-    background-color: rgb(245, 130, 76);
+    background-color: rgb(151, 34, 34);
     margin: 5px;
     border-style: hidden;
     cursor: pointer;
@@ -113,4 +119,13 @@ footer {
     display: flex;
     justify-content: center;
     margin: 8px;
+    height: 60px;
+}
+
+.boton-footer {
+    width: 50%;
+}
+
+.boton-footer>p {
+    width: 95%;
 }

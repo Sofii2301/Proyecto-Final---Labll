@@ -15,7 +15,7 @@ button {
 
 footer {
     background-color:rgb(32, 35, 70);
-    border: 1.5mm dashed rgb(0, 130, 255);
+    border: 2px dashed rgb(0, 130, 255);
     margin: 4px;
     padding: 6px;
 }

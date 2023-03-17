@@ -90,12 +90,6 @@ img {
     text-decoration: none;
 }
 
-.Div-Titulo{
-    align-items: center;
-    justify-content: center;
-    font-size: 22px;
-}
-
 /*ESTILOS DE SECCION DE GRAFICOS */
 
 main {
@@ -137,10 +131,15 @@ main {
 }
 
 .articulo {
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
     background-color: rgb(241, 195, 195);
     padding: 20px;
-    margin: 10px;
+    margin: 20px;
+    width: 400px;
+    height: 400px;
 }
 
 
@@ -174,7 +173,7 @@ footer {
     justify-content: space-around;
     height: 100px;
     width: 100%;
-    margin: 12px 2rem 2rem 2rem;
+    margin: 100px 2rem 2rem 2rem;
 }
 
 #img-sponsors {
