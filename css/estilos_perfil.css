@@ -17,6 +17,12 @@ h2 {
     border-radius: 5px;
 }
 
+legend {
+    display: flex;
+    align-items: center;
+    padding: 4px;
+}
+
 #span_perfil {
     border: 3px solid rgb(0, 130, 255);
     background-color: rgb(151, 34, 34);
@@ -52,6 +58,7 @@ h2 {
     align-items: center;
     justify-content: space-between;
     margin-right: 144px;
+    margin-left: 14px;
 }
 
 #div_tarjeta {
@@ -73,13 +80,14 @@ h2 {
 #div_recibos {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     border: 2px solid rgb(0, 130, 255);
     background-color:rgb(32, 35, 70);
     border-radius: 1%;
-    margin: 6px;
+    margin: 7px;
     margin-top: 20px;
     padding: 0px;
-    height: 60px;
+    height: 70px;
 }
 
 #recibos {
@@ -101,7 +109,7 @@ body {
 }
 
 main {
-    width: 400px;
+    width: 450px;
 }
 
 .boton-menu-perfil {
@@ -128,4 +136,10 @@ footer {
 
 .boton-footer>p {
     width: 95%;
+}
+
+@media (max-width: 450px) {
+    main {
+        width: 280px;
+    }
 }
