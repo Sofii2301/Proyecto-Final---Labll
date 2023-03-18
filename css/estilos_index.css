@@ -179,23 +179,25 @@ footer {
 }
 
 @media (max-width:1100px) {
-    button{
+    button {
         font-size: 55%;
     }
-    .articulo{
+    .articulo {
         width: 90%;
     }
-    .botton-aside{
+    .botton-aside {
         margin: 0px;
-        width: 16%;
+        width: 20%;
         height: 80px;
     }
-    #aside-principal{
+    #aside-principal {
         width: 83%;
         flex-direction: row;
         justify-content: space-between;
     }
-    .boton-footer{
-        width: 16%;
+    .boton-footer {
+        width: 15%;
+        flex-direction: column;
+        height: 50px;
     }
 }
