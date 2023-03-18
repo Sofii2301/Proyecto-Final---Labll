@@ -97,7 +97,7 @@ main {
     width: 83%;
 }
 
-.article-grafico {
+.div-grafico {
     display: flex;
     flex-direction: row;
     margin: 5px; 
