@@ -14,6 +14,11 @@ button {
     border-radius: 5%;
 }
 
+#span_perfil {
+    color: white;
+    text-decoration: none;
+}
+
 footer {
     background-color:rgb(32, 35, 70);
     border: 2px dashed rgb(0, 130, 255);

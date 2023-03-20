@@ -15,10 +15,9 @@
 
 img {
     max-width: 100%;
-    margin-bottom: 5px;
 }
-/*ESTILOS MENU*/
 
+/*ESTILOS MENU*/
 #menu-principal {
     margin: 15px 2rem 2rem 2rem;
     display: flex;
@@ -61,6 +60,14 @@ img {
     justify-content: space-between;
 }
 
+#boton-menu-perfil {
+    width: auto;
+    height: auto;
+    background-color:rgb(151, 34, 34);
+    padding: 7px;
+    cursor: pointer;
+}
+
 #boton-menu-esconder {
     display: flex;
     flex-direction: row-reverse;
@@ -72,28 +79,9 @@ img {
     cursor: pointer;
 }
 
-#boton-menu-perfil {
-    display: flex;
-    width: auto;
-    height: auto;
-    background-color:rgb(151, 34, 34);
-    padding: 7px;
-    cursor: pointer;
-}
-
-#span_perfil {
-    display: flex;
-    color: white;
-    text-decoration: none;
-}
-
 /*ESTILOS DE SECCION DE GRAFICOS */
 
 main {
-    /* display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center; */
     width: 83%;
 }
 

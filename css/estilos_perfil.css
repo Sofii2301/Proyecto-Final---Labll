@@ -1,10 +1,14 @@
-#contenedor_perfil {
+body {
     display: flex;
     flex-direction: column;
     align-items: center;
     color: white;
+    padding: 20px;
+    padding-top: 0px;
+    justify-content: center;
 }
 
+/*ESTILOS MENU*/
 header {
     display: flex;
     align-self: flex-start;
@@ -12,10 +16,18 @@ header {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    border: 6px solid rgb(0, 130, 255);
-    background-color:rgb(32, 35, 70);
     padding-left: 10px;
     margin: 10px;
+    background-color: rgb(32, 35, 70);
+}
+
+#span_perfil {
+    border: 3px solid rgb(0, 130, 255);
+    background-color: rgb(151, 34, 34);
+    border-radius: 5%;
+    margin: 3px;
+    padding: 5px;
+    cursor: pointer;
 }
 
 #menu-perfil {
@@ -30,12 +42,17 @@ header {
     height: auto;
     color:white;
     background-color: rgb(151, 34, 34);
-    border: 4px solid black;
+    border: 3px solid rgb(0, 130, 255);
     border-radius: 5%;
     cursor: pointer;
     padding: 7px;
     margin: 10px;
     text-decoration: none;
+}
+
+/*ESTILOS FORMULARIOS*/
+main {
+    width: 40%;
 }
 
 h2 {
@@ -50,15 +67,6 @@ legend {
     display: flex;
     align-items: center;
     padding: 4px;
-}
-
-#span_perfil {
-    border: 3px solid rgb(0, 130, 255);
-    background-color: rgb(151, 34, 34);
-    border-radius: 5%;
-    margin: 3px;
-    padding: 5px;
-    cursor: pointer;
 }
 
 #div_datos {
@@ -105,6 +113,17 @@ legend {
     justify-content: center;
 }
 
+.boton-menu-perfil {
+    width: 130px;
+    height: 50px;
+    border-radius: 5px;
+    color:white;
+    background-color: rgb(151, 34, 34);
+    margin: 5px;
+    border-style: hidden;
+    cursor: pointer;
+}
+
 #div_recibos {
     display: flex;
     justify-content: space-around;
@@ -118,37 +137,10 @@ legend {
     height: 70px;
 }
 
-#recibos {
+.recibos {
     display: flex;
     align-items: center;
     margin: 0px;
-}
-
-#ultimos-mov {
-    display: flex;
-    align-items: center;
-    margin: 0px;
-}
-
-body {
-    padding: 20px;
-    padding-top: 0px;
-    justify-content: center;
-}
-
-main {
-    width: 450px;
-}
-
-.boton-menu-perfil {
-    width: 130px;
-    height: 50px;
-    border-radius: 5px;
-    color:white;
-    background-color: rgb(151, 34, 34);
-    margin: 5px;
-    border-style: hidden;
-    cursor: pointer;
 }
 
 footer {
