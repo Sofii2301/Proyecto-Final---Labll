@@ -6,7 +6,36 @@
 }
 
 header {
+    display: flex;
     align-self: flex-start;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border: 6px solid rgb(0, 130, 255);
+    background-color:rgb(32, 35, 70);
+    padding-left: 10px;
+    margin: 10px;
+}
+
+#menu-perfil {
+    display: flex;
+    flex-direction: row;
+    justify-content:right;
+    width: 80%;
+}
+
+#menu-perfil>a {
+    width: auto;
+    height: auto;
+    color:white;
+    background-color: rgb(151, 34, 34);
+    border: 4px solid black;
+    border-radius: 5%;
+    cursor: pointer;
+    padding: 7px;
+    margin: 10px;
+    text-decoration: none;
 }
 
 h2 {
@@ -39,7 +68,6 @@ legend {
     background-color:rgb(32, 35, 70);
     border-radius: 1%;
     margin: 20px;
-    margin-top: 0px;
     padding: 15px;
 }
 
