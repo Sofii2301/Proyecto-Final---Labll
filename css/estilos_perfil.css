@@ -15,10 +15,12 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     width: 100%;
     padding-left: 10px;
-    margin: 10px;
+    margin-top: 10px;
     background-color: rgb(32, 35, 70);
+    border-radius: 8px;
 }
 
 #span_perfil {
@@ -34,7 +36,6 @@ header {
     display: flex;
     flex-direction: row;
     justify-content:right;
-    width: 80%;
 }
 
 #menu-perfil>a {
@@ -141,6 +142,7 @@ legend {
     display: flex;
     align-items: center;
     margin: 0px;
+    cursor: pointer;
 }
 
 footer {
@@ -158,8 +160,15 @@ footer {
     width: 95%;
 }
 
-@media (max-width: 450px) {
+
+@media (max-width: 848px) {
     main {
-        width: 280px;
+        width: 310px;
+    }
+
+    #menu-perfil {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
     }
 }
